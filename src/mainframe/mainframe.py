@@ -35,7 +35,7 @@ def init_window():
     # 设置窗口是否可变长、宽，True：可变，False：不可变
     window.resizable(width=True, height=True)
     # 设置图标
-    window.iconbitmap(r"mainframe\icon.ico")
+    window.iconbitmap("D:\\JAVA\\works\\SocialQuotations\\src\\mainframe\\icon.ico")
 
     # 创建上边的frame
     top_frame = Frame(window, height=3)
